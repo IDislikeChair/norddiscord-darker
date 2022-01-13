@@ -34,65 +34,65 @@
 	
 	
 	/* Nord color scheme */
-	--nord0    : #2e3440;
-	--nord1    : #3b4252;
-	--nord2    : #434c5e;
-	--nord3    : #4c566a;
-	--nord4    : #d8dee9;
-	--nord5    : #e5e9f0;
-	--nord6    : #eceff4;
-	--nord7    : #8fbcbb;
-	--nord8    : #88c0d0;
-	--nord9    : #81a1c1;
-	--nord10   : #5e81ac;
-	--nord11   : #bf616a;
-	--nord12   : #d08770;
-	--nord13   : #ebcb8b;
-	--nord14   : #a3be8c;
-	--nord15   : #b48ead;
-	--nordBlack: #252932;
+	--nord-polar-0: #2e3440;
+	--nord-polar-1: #3b4252;
+	--nord-polar-2: #434c5e;
+	--nord-polar-3: #4c566a;
+	--nord-snow-0 : #d8dee9;
+	--nord-snow-1 : #e5e9f0;
+	--nord-snow-2 : #eceff4;
+	--nord-frost-0: #8fbcbb;
+	--nord-frost-1: #88c0d0;
+	--nord-frost-2: #81a1c1;
+	--nord-frost-3: #5e81ac;
+	--nord-red    : #bf616a;
+	--nord-orange : #d08770;
+	--nord-yellow : #ebcb8b;
+	--nord-green  : #a3be8c;
+	--nord-purple : #b48ead;
+	--nord-black  : #252932;
 }
 
 /* Change scroll bar color */
 .theme-dark, .theme-light {
 
-	--scrollbar-thin-thumb                : var(--nord1);
+	--scrollbar-thin-thumb                : var(--nord-polar-1);
 	--scrollbar-thin-track                : transparent;
-	--scrollbar-auto-thumb                : var(--nord1);
+	--scrollbar-auto-thumb                : var(--nord-polar-1);
 	--scrollbar-auto-track                : transparent;
-	--scrollbar-auto-scrollbar-color-thumb: var(--nord1);
+	--scrollbar-auto-scrollbar-color-thumb: var(--nord-polar-1);
 	--scrollbar-auto-scrollbar-color-track: transparent;
 }
 
 /* Discord logo */
 .da-wordmark path,
 div[class*="wordmark"] path {
-	fill: var(--nord4);
+	fill: var(--nord-snow-0);
 }
 
 /* Message search bar */
 .da-searchBar,
 div[class*="searchBar"] {
-	background-color: var(--nord0);
+	background-color: var(--nord-polar-0);
 }
 
 /* Server list */
 .da-tree > .da-scroller, 
 ul[class*="tree"] > div[class*="scroller"] {
-	background-color: var(--nordBlack);
+	background-color: var(--nord-black);
 }
 
 /* Title bar */
 .da-titleBar, 
 div[class*="titleBar"] {
-	background-color: var(--nordBlack) !important;
+	background-color: var(--nord-black) !important;
 	padding-top     : 4px;
 	margin-top      : 0;
 }
 
 .da-bg, 
 div[class*="bg"] {
-	background-color: var(--nordBlack) !important;
+	background-color: var(--nord-black) !important;
 }
 
 /* Mac style buttons */
@@ -112,30 +112,30 @@ div[class*="winButton"] {
 
 .da-winButtonMinMax[aria-label="Minimize"],
 div[class*="winButtonMinMax"][aria-label="Minimize"] {
-	background-color: var(--nord13);
+	background-color: var(--nord-yellow);
 }
 
 .da-winButtonMinMax[aria-label="Maximize"],
 div[class*="winButtonMinMax"][aria-label="Maximize"] {
-	background-color: var(--nord14);
+	background-color: var(--nord-green);
 }
 
 .da-winButtonClose,
 div[class*="winButtonClose"] {
-	background-color: var(--nord11);
+	background-color: var(--nord-red);
 	margin-right    : 25px
 }
 
 .da-winButton:hover,
 div[class*="winButton"]:hover {
 	color           : transparent;
-	background-color: var(--nord3);
+	background-color: var(--nord-polar-3);
 }
 
 /* Text Highlighting Styling */
 ::selection {
     background-color: rgba(129, 161, 193,.5);
-    color           : var(--nord4);
+    color           : var(--nord-snow-0);
 }
 
 /* Mention Border */
@@ -148,7 +148,7 @@ div[class*="mentioned"]:before
 /* New Messages Divider & Pill */
 .da-isUnread .da-content,
 div[class*="isUnread"] span[class*="content"] {
-    color: var(--nord11) !important;
+    color: var(--nord-red) !important;
 }
 
 /* ? Not sure what does this do */
@@ -160,18 +160,18 @@ div[class*="nameWrap"] div[class*="textRow"]
 
 .da-isUnread,
 div[class*="isUnread"] {
-    border-color: var(--nord11);
+    border-color: var(--nord-red);
 }
 
 .da-unreadPill,
 span[class*="unreadPill"] {
-    background-color: var(--nord11);
+    background-color: var(--nord-red);
 }
 
 .da-unreadPillCapStroke,
 path[class*="unreadPillCapStroke"] {
-    color: var(--nord11);
-    fill : var(--nord11);
+    color: var(--nord-red);
+    fill : var(--nord-red);
 }
 
 /* Folder Icon and Background Colors  */
@@ -182,43 +182,43 @@ div[class*="expandedFolderIconWrapper"] path {
 
 .da-folderIconWrapper,
 div[class*="folderIconWrapper"]  {
-    background-color: var(--nord0) !important;
+    background-color: var(--nord-polar-0) !important;
 }
 
 /* Administrator Crown */
 .da-ownerIcon,
 svg[class*="ownerIcon"] {
-    color: var(--nord13);
+    color: var(--nord-yellow);
 }
 
 /* Premium Icon */
 .da-premiumIcon,
 svg[class*="premiumIcon"] {
-	color: var(--nord15);
+	color: var(--nord-purple);
 }
 
 /* Add Server & Explore Buttons */
 .da-circleIconButton,
 div[class*="circleIconButton"] {
-    color: var(--nord4);
+    color: var(--nord-snow-0);
 }
 
 .da-circleIconButton.da-selected, .da-selected .da-childWrapper,
 div[class*="circleIconButton"][class*="selected"], 
 div[class*="selected"] div[class*="childWrapper"] {
-    background-color: var(--nord2);
+    background-color: var(--nord-polar-2);
 }
 
 /* New pin icon */
 .da-iconBadge,
 span[class*="iconBadge"] {
-	background-color: var(--nord11);
+	background-color: var(--nord-red);
 }
 
 /* Microphone and speaker mute */
 .da-strikethrough,
 path[class*="strikethrough"] {
-	color: var(--nord11);
+	color: var(--nord-red);
 }
 
 /* Status icons */
@@ -234,12 +234,12 @@ rect[mask="url(#svg-mask-status-online)"] ,
 div[class*="avatar"] div[aria-label$="mobile"] > svg > svg > rect,
 div[class*="status"][aria-label$="mobile"] > svg > rect,
 rect[mask="url(#svg-mask-status-online-mobile)"] { 
-	fill: var(--nord14);
+	fill: var(--nord-green);
 }
 
 .da-status[style="background-color: rgb(67, 181, 129);"],
 div[class*="status"][style="background-color: rgb(67, 181, 129);"] {
-	background-color: var(--nord14) !important;
+	background-color: var(--nord-green) !important;
 }
 
 
@@ -248,12 +248,12 @@ div[class*="status"][style="background-color: rgb(67, 181, 129);"] {
 div[class*="avatar"] div[aria-label$="Do Not Disturb"] > svg > svg > rect,
 div[class*="status"][aria-label="Do Not Disturb"] > svg > rect,
 rect[mask="url(#svg-mask-status-dnd)"] {
-	fill: var(--nord11);
+	fill: var(--nord-red);
 }
 
 .da-status[style="background-color: rgb(240, 71, 71);"],
 div[class*="status"][style="background-color: rgb(240, 71, 71);"] {
-	background-color: var(--nord11) !important;
+	background-color: var(--nord-red) !important;
 }
 
 .da-avatar .da-wrapper[aria-label$="Streaming"] > svg > svg > rect,
@@ -261,12 +261,12 @@ div[class*="status"][style="background-color: rgb(240, 71, 71);"] {
 div[class*="avatar"] div[aria-label$="Streaming"] > svg > svg > rect,
 div[class*="status"][aria-label="Streaming"] > svg > rect,
 rect[mask="url(#svg-mask-status-streaming)"] {
-	fill: var(--nord15);
+	fill: var(--nord-purple);
 }
 
 .da-status[style="background-color: rgb(89, 54, 149);"],
 div[class*="status"][style="background-color: rgb(89, 54, 149);"] {
-	background-color: var(--nord15) !important;
+	background-color: var(--nord-purple) !important;
 }
 
 .da-avatar .da-wrapper[aria-label$="Idle"] > svg > svg > rect,
@@ -274,12 +274,12 @@ div[class*="status"][style="background-color: rgb(89, 54, 149);"] {
 div[class*="avatar"] div[aria-label$="Idle"] > svg > svg > rect,
 div[class*="status"][aria-label="Idle"] > svg > rect,
 rect[mask="url(#svg-mask-status-idle)"] {
-	fill: var(--nord13);
+	fill: var(--nord-yellow);
 }
 
 .da-status[style="background-color: rgb(250, 166, 26);"],
 div[class*="status"][style="background-color: rgb(250, 166, 26);"] {
-	background-color: var(--nord13) !important;
+	background-color: var(--nord-yellow) !important;
 }
 
 .da-avatar .da-wrapper[aria-label$="Invisible"] > svg > svg > rect,
@@ -291,12 +291,12 @@ rect[mask="url(#svg-mask-status-invisible)"],
 div[class*="avatar"] div[aria-label$="Offline"] > svg > svg > rect,
 div[class*="status"][aria-label="Offline"] > svg > rect,
 rect[mask="url(#svg-mask-status-offline)"] {
-	fill: var(--nord3);
+	fill: var(--nord-polar-3);
 }
 
 .da-status[style="background-color: rgb(116, 127, 141);"],
 div[class*="status"][style="background-color: rgb(116, 127, 141);"] {
-	background-color: var(--nord3) !important;
+	background-color: var(--nord-polar-3) !important;
 }
 
 div[class*="divider"] {
