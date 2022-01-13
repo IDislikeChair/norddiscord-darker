@@ -91,7 +91,7 @@ div[class*="titleBar"] {
 }
 
 .da-bg, 
-div[class*="bg"] {
+div[class^="bg"] {
     background-color: var(--nord-black) !important;
 }
 
