@@ -33,19 +33,6 @@
 	--backgroundfloating    : 37, 41, 50;
 	
 	
-	/* Radial Status variable */
-	--rs-small-spacing  : 1px;            /* spacing between avatar and status */
-	--rs-large-spacing  : 3px;            /* spacing between avatar and status for user popouts & modals/profiles */
-	--rs-width          : 2px;            /* Width/thickness of status border */
-	--rs-avatar-shape   : 50%;            /* 50% for round - 0% for square */
-	--rs-online-color   : var(--nord14);  /* color for online status */
-	--rs-idle-color     : var(--nord13);  /* color for idle status */
-	--rs-dnd-color      : var(--nord11);  /* color for dnd status */
-	--rs-offline-color  : var(--nord3);   /* color for offline status */
-	--rs-streaming-color: var(--nord15);  /* color for streaming status */
-	--rs-invisible-color: var(--nord3);   /* color for invisible status - Note this will only show for your own invisibility */
-	
-	
 	/* Nord color scheme */
 	--nord0    : #2e3440;
 	--nord1    : #3b4252;
