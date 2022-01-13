@@ -13,123 +13,123 @@
 
 
 :root {
-	/* Variables from DiscordRecolor. RGBA values only. */
-	--accentcolor : 94,  129, 172;
-	--linkcolor   : 136, 192, 208;
-	--mentioncolor: 136, 192, 208;
-	
-	--textbrightest: 236, 239, 244;
-	--textbrighter : 229, 233, 240;
-	--textbright   : 216, 222, 233;
-	--textdark     : 216, 222, 233;
-	--textdarker   : 130, 148, 182;
-	--textdarkest  : 76,  86,  106;
+    /* Variables from DiscordRecolor. RGBA values only. */
+    --accentcolor : 94,  129, 172;
+    --linkcolor   : 136, 192, 208;
+    --mentioncolor: 136, 192, 208;
+    
+    --textbrightest: 236, 239, 244;
+    --textbrighter : 229, 233, 240;
+    --textbright   : 216, 222, 233;
+    --textdark     : 216, 222, 233;
+    --textdarker   : 130, 148, 182;
+    --textdarkest  : 76,  86,  106;
 
-	--backgroundaccent      : 59, 66, 82;
-	--backgroundprimary     : 46, 52, 64;
-	--backgroundsecondary   : 46, 52, 64;
-	--backgroundsecondaryalt: 46, 52, 64;
-	--backgroundtertiary    : 59, 66, 82;
-	--backgroundfloating    : 37, 41, 50;
-	
-	
-	/* Nord color scheme */
-	--nord-polar-0: #2e3440;
-	--nord-polar-1: #3b4252;
-	--nord-polar-2: #434c5e;
-	--nord-polar-3: #4c566a;
-	--nord-snow-0 : #d8dee9;
-	--nord-snow-1 : #e5e9f0;
-	--nord-snow-2 : #eceff4;
-	--nord-frost-0: #8fbcbb;
-	--nord-frost-1: #88c0d0;
-	--nord-frost-2: #81a1c1;
-	--nord-frost-3: #5e81ac;
-	--nord-red    : #bf616a;
-	--nord-orange : #d08770;
-	--nord-yellow : #ebcb8b;
-	--nord-green  : #a3be8c;
-	--nord-purple : #b48ead;
-	--nord-black  : #252932;
+    --backgroundaccent      : 59, 66, 82;
+    --backgroundprimary     : 46, 52, 64;
+    --backgroundsecondary   : 46, 52, 64;
+    --backgroundsecondaryalt: 46, 52, 64;
+    --backgroundtertiary    : 59, 66, 82;
+    --backgroundfloating    : 37, 41, 50;
+    
+    
+    /* Nord color scheme */
+    --nord-polar-0: #2e3440;
+    --nord-polar-1: #3b4252;
+    --nord-polar-2: #434c5e;
+    --nord-polar-3: #4c566a;
+    --nord-snow-0 : #d8dee9;
+    --nord-snow-1 : #e5e9f0;
+    --nord-snow-2 : #eceff4;
+    --nord-frost-0: #8fbcbb;
+    --nord-frost-1: #88c0d0;
+    --nord-frost-2: #81a1c1;
+    --nord-frost-3: #5e81ac;
+    --nord-red    : #bf616a;
+    --nord-orange : #d08770;
+    --nord-yellow : #ebcb8b;
+    --nord-green  : #a3be8c;
+    --nord-purple : #b48ead;
+    --nord-black  : #252932;
 }
 
 /* Change scroll bar color */
 .theme-dark, .theme-light {
 
-	--scrollbar-thin-thumb                : var(--nord-polar-1);
-	--scrollbar-thin-track                : transparent;
-	--scrollbar-auto-thumb                : var(--nord-polar-1);
-	--scrollbar-auto-track                : transparent;
-	--scrollbar-auto-scrollbar-color-thumb: var(--nord-polar-1);
-	--scrollbar-auto-scrollbar-color-track: transparent;
+    --scrollbar-thin-thumb                : var(--nord-polar-1);
+    --scrollbar-thin-track                : transparent;
+    --scrollbar-auto-thumb                : var(--nord-polar-1);
+    --scrollbar-auto-track                : transparent;
+    --scrollbar-auto-scrollbar-color-thumb: var(--nord-polar-1);
+    --scrollbar-auto-scrollbar-color-track: transparent;
 }
 
 /* Discord logo */
 .da-wordmark path,
 div[class*="wordmark"] path {
-	fill: var(--nord-snow-0);
+    fill: var(--nord-snow-0);
 }
 
 /* Message search bar */
 .da-searchBar,
 div[class*="searchBar"] {
-	background-color: var(--nord-polar-0);
+    background-color: var(--nord-polar-0);
 }
 
 /* Server list */
 .da-tree > .da-scroller, 
 ul[class*="tree"] > div[class*="scroller"] {
-	background-color: var(--nord-black);
+    background-color: var(--nord-black);
 }
 
 /* Title bar */
 .da-titleBar, 
 div[class*="titleBar"] {
-	background-color: var(--nord-black) !important;
-	padding-top     : 4px;
-	margin-top      : 0;
+    background-color: var(--nord-black) !important;
+    padding-top     : 4px;
+    margin-top      : 0;
 }
 
 .da-bg, 
 div[class*="bg"] {
-	background-color: var(--nord-black) !important;
+    background-color: var(--nord-black) !important;
 }
 
 /* Mac style buttons */
 /* ! The clickable area is too small. */
 .da-winButton,
 div[class*="winButton"] {
-	color        : transparent;
-	height       : 10px;
-	width        : 10px;
-	border-radius: 50%;
-	margin-top   : 5px;
-	margin-right : 10px;
-	margin-left  : 10px;
+    color        : transparent;
+    height       : 10px;
+    width        : 10px;
+    border-radius: 50%;
+    margin-top   : 5px;
+    margin-right : 10px;
+    margin-left  : 10px;
 
-	transition: .2s;
+    transition: .2s;
 }
 
 .da-winButtonMinMax[aria-label="Minimize"],
 div[class*="winButtonMinMax"][aria-label="Minimize"] {
-	background-color: var(--nord-yellow);
+    background-color: var(--nord-yellow);
 }
 
 .da-winButtonMinMax[aria-label="Maximize"],
 div[class*="winButtonMinMax"][aria-label="Maximize"] {
-	background-color: var(--nord-green);
+    background-color: var(--nord-green);
 }
 
 .da-winButtonClose,
 div[class*="winButtonClose"] {
-	background-color: var(--nord-red);
-	margin-right    : 25px
+    background-color: var(--nord-red);
+    margin-right    : 25px
 }
 
 .da-winButton:hover,
 div[class*="winButton"]:hover {
-	color           : transparent;
-	background-color: var(--nord-polar-3);
+    color           : transparent;
+    background-color: var(--nord-polar-3);
 }
 
 /* Text Highlighting Styling */
@@ -194,7 +194,7 @@ svg[class*="ownerIcon"] {
 /* Premium Icon */
 .da-premiumIcon,
 svg[class*="premiumIcon"] {
-	color: var(--nord-purple);
+    color: var(--nord-purple);
 }
 
 /* Add Server & Explore Buttons */
@@ -212,13 +212,13 @@ div[class*="selected"] div[class*="childWrapper"] {
 /* New pin icon */
 .da-iconBadge,
 span[class*="iconBadge"] {
-	background-color: var(--nord-red);
+    background-color: var(--nord-red);
 }
 
 /* Microphone and speaker mute */
 .da-strikethrough,
 path[class*="strikethrough"] {
-	color: var(--nord-red);
+    color: var(--nord-red);
 }
 
 /* Status icons */
@@ -234,12 +234,12 @@ rect[mask="url(#svg-mask-status-online)"] ,
 div[class*="avatar"] div[aria-label$="mobile"] > svg > svg > rect,
 div[class*="status"][aria-label$="mobile"] > svg > rect,
 rect[mask="url(#svg-mask-status-online-mobile)"] { 
-	fill: var(--nord-green);
+    fill: var(--nord-green);
 }
 
 .da-status[style="background-color: rgb(67, 181, 129);"],
 div[class*="status"][style="background-color: rgb(67, 181, 129);"] {
-	background-color: var(--nord-green) !important;
+    background-color: var(--nord-green) !important;
 }
 
 
@@ -248,12 +248,12 @@ div[class*="status"][style="background-color: rgb(67, 181, 129);"] {
 div[class*="avatar"] div[aria-label$="Do Not Disturb"] > svg > svg > rect,
 div[class*="status"][aria-label="Do Not Disturb"] > svg > rect,
 rect[mask="url(#svg-mask-status-dnd)"] {
-	fill: var(--nord-red);
+    fill: var(--nord-red);
 }
 
 .da-status[style="background-color: rgb(240, 71, 71);"],
 div[class*="status"][style="background-color: rgb(240, 71, 71);"] {
-	background-color: var(--nord-red) !important;
+    background-color: var(--nord-red) !important;
 }
 
 .da-avatar .da-wrapper[aria-label$="Streaming"] > svg > svg > rect,
@@ -261,12 +261,12 @@ div[class*="status"][style="background-color: rgb(240, 71, 71);"] {
 div[class*="avatar"] div[aria-label$="Streaming"] > svg > svg > rect,
 div[class*="status"][aria-label="Streaming"] > svg > rect,
 rect[mask="url(#svg-mask-status-streaming)"] {
-	fill: var(--nord-purple);
+    fill: var(--nord-purple);
 }
 
 .da-status[style="background-color: rgb(89, 54, 149);"],
 div[class*="status"][style="background-color: rgb(89, 54, 149);"] {
-	background-color: var(--nord-purple) !important;
+    background-color: var(--nord-purple) !important;
 }
 
 .da-avatar .da-wrapper[aria-label$="Idle"] > svg > svg > rect,
@@ -274,12 +274,12 @@ div[class*="status"][style="background-color: rgb(89, 54, 149);"] {
 div[class*="avatar"] div[aria-label$="Idle"] > svg > svg > rect,
 div[class*="status"][aria-label="Idle"] > svg > rect,
 rect[mask="url(#svg-mask-status-idle)"] {
-	fill: var(--nord-yellow);
+    fill: var(--nord-yellow);
 }
 
 .da-status[style="background-color: rgb(250, 166, 26);"],
 div[class*="status"][style="background-color: rgb(250, 166, 26);"] {
-	background-color: var(--nord-yellow) !important;
+    background-color: var(--nord-yellow) !important;
 }
 
 .da-avatar .da-wrapper[aria-label$="Invisible"] > svg > svg > rect,
@@ -291,16 +291,16 @@ rect[mask="url(#svg-mask-status-invisible)"],
 div[class*="avatar"] div[aria-label$="Offline"] > svg > svg > rect,
 div[class*="status"][aria-label="Offline"] > svg > rect,
 rect[mask="url(#svg-mask-status-offline)"] {
-	fill: var(--nord-polar-3);
+    fill: var(--nord-polar-3);
 }
 
 .da-status[style="background-color: rgb(116, 127, 141);"],
 div[class*="status"][style="background-color: rgb(116, 127, 141);"] {
-	background-color: var(--nord-polar-3) !important;
+    background-color: var(--nord-polar-3) !important;
 }
 
 div[class*="divider"] {
-	background-color: transparent !important;
+    background-color: transparent !important;
 }
 
 .lookFilled-1Gx00P.colorGreen-29iAKY {
