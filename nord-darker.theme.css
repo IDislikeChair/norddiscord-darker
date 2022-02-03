@@ -111,12 +111,62 @@ div[class*="winButton"] {
 }
 
 .da-winButtonMinMax[aria-label="Minimize"],
-div[class*="winButtonMinMax"][aria-label="Minimize"] {
+div[class*="winButtonMinMax"][aria-label="Minimize"],
+div[class*="winButtonMinMax"][aria-label="Minimer"],
+div[class*="winButtonMinMax"][aria-label="Minimieren"],
+div[class*="winButtonMinMax"][aria-label="Minimise"],
+div[class*="winButtonMinMax"][aria-label="Minimizar"],
+div[class*="winButtonMinMax"][aria-label="Minimiser"],
+div[class*="winButtonMinMax"][aria-label="Smanji"],
+div[class*="winButtonMinMax"][aria-label="Riduci"],
+div[class*="winButtonMinMax"][aria-label="Sumažinti"],
+div[class*="winButtonMinMax"][aria-label="Kis méret"],
+div[class*="winButtonMinMax"][aria-label="Minimaliseren"],
+div[class*="winButtonMinMax"][aria-label="Minimalizuj"],
+div[class*="winButtonMinMax"][aria-label="Minimizează"],
+div[class*="winButtonMinMax"][aria-label="Pienennä"],
+div[class*="winButtonMinMax"][aria-label="Minimera"],
+div[class*="winButtonMinMax"][aria-label="Thu nhỏ"],
+div[class*="winButtonMinMax"][aria-label="Küçült"],
+div[class*="winButtonMinMax"][aria-label="Minimalizovat"],
+div[class*="winButtonMinMax"][aria-label="Ελαχιστοποίηση"],
+div[class*="winButtonMinMax"][aria-label="Минимизирай"],
+div[class*="winButtonMinMax"][aria-label="Свернуть"],
+div[class*="winButtonMinMax"][aria-label="Згорнути"],
+div[class*="winButtonMinMax"][aria-label="मिनिमाइज़ करें"],
+div[class*="winButtonMinMax"][aria-label="ย่อ"],
+div[class*="winButtonMinMax"][aria-label="最小化"],
+div[class*="winButtonMinMax"][aria-label="최소화"] {
     background-color: var(--nord-yellow);
 }
 
 .da-winButtonMinMax[aria-label="Maximize"],
-div[class*="winButtonMinMax"][aria-label="Maximize"] {
+div[class*="winButtonMinMax"][aria-label="Maximize"],
+div[class*="winButtonMinMax"][aria-label="Maksimer"],
+div[class*="winButtonMinMax"][aria-label="Maximieren"],
+div[class*="winButtonMinMax"][aria-label="Maximise"],
+div[class*="winButtonMinMax"][aria-label="Maximizar"],
+div[class*="winButtonMinMax"][aria-label="Maximiser"],
+div[class*="winButtonMinMax"][aria-label="Uvećaj"],
+div[class*="winButtonMinMax"][aria-label="Espandi"],
+div[class*="winButtonMinMax"][aria-label="Padidinti"],
+div[class*="winButtonMinMax"][aria-label="Teljes méret"],
+div[class*="winButtonMinMax"][aria-label="Maximaliseren"],
+div[class*="winButtonMinMax"][aria-label="Maksymalizuj"],
+div[class*="winButtonMinMax"][aria-label="Maximizează"],
+div[class*="winButtonMinMax"][aria-label="Suurenna"],
+div[class*="winButtonMinMax"][aria-label="Maximera"],
+div[class*="winButtonMinMax"][aria-label="Phóng đại"],
+div[class*="winButtonMinMax"][aria-label="Ekranı Kapla"],
+div[class*="winButtonMinMax"][aria-label="Maximalizovat"],
+div[class*="winButtonMinMax"][aria-label="Μεγιστοποίηση"],
+div[class*="winButtonMinMax"][aria-label="Максимизирай"],
+div[class*="winButtonMinMax"][aria-label="Развернуть"],
+div[class*="winButtonMinMax"][aria-label="Розгорнути"],
+div[class*="winButtonMinMax"][aria-label="मैक्सीमाइज़ करें"],
+div[class*="winButtonMinMax"][aria-label="ขยายใหญ่สุด"],
+div[class*="winButtonMinMax"][aria-label="最大化"],
+div[class*="winButtonMinMax"][aria-label="최대화"] {
     background-color: var(--nord-green);
 }
 
