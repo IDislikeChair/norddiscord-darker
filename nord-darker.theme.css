@@ -17,7 +17,7 @@
     --accentcolor : 94,  129, 172;
     --linkcolor   : 136, 192, 208;
     --mentioncolor: 136, 192, 208;
-    
+
     --textbrightest: 236, 239, 244;
     --textbrighter : 229, 233, 240;
     --textbright   : 216, 222, 233;
@@ -31,8 +31,8 @@
     --backgroundsecondaryalt: 46, 52, 64;
     --backgroundtertiary    : 59, 66, 82;
     --backgroundfloating    : 37, 41, 50;
-    
-    
+
+
     /* Nord color scheme */
     --nord-polar-0: #2e3440;
     --nord-polar-1: #3b4252;
@@ -77,20 +77,20 @@ div[class*="searchBar"] {
 }
 
 /* Server list */
-.da-tree > .da-scroller, 
+.da-tree > .da-scroller,
 ul[class*="tree"] > div[class*="scroller"] {
     background-color: var(--nord-black);
 }
 
 /* Title bar */
-.da-titleBar, 
+.da-titleBar,
 div[class*="titleBar"] {
     background-color: var(--nord-black) !important;
     padding-top     : 4px;
     margin-top      : 0;
 }
 
-.da-bg, 
+.da-bg,
 div[class^="bg"] {
     background-color: var(--nord-black) !important;
 }
@@ -204,7 +204,7 @@ div[class*="circleIconButton"] {
 }
 
 .da-circleIconButton.da-selected, .da-selected .da-childWrapper,
-div[class*="circleIconButton"][class*="selected"], 
+div[class*="circleIconButton"][class*="selected"],
 div[class*="selected"] div[class*="childWrapper"] {
     background-color: var(--nord-polar-2);
 }
@@ -233,7 +233,7 @@ rect[mask="url(#svg-mask-status-online)"] ,
 .da-status[aria-label="mobile"] > svg > rect,
 div[class*="avatar"] div[aria-label$="mobile"] > svg > svg > rect,
 div[class*="status"][aria-label$="mobile"] > svg > rect,
-rect[mask="url(#svg-mask-status-online-mobile)"] { 
+rect[mask="url(#svg-mask-status-online-mobile)"] {
     fill: var(--nord-green);
 }
 
@@ -305,8 +305,8 @@ div[class*="divider"] {
 
 .lookFilled-1Gx00P.colorGreen-29iAKY {
    background-color: #5e81ac
- } 
-  
+}
+
  .lookFilled-1Gx00P.colorGreen-29iAKY:hover {
    background-color: #81a1c1
- }
+}
